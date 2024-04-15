@@ -81,6 +81,7 @@ export default function NavBar({ settings }: NavBarProps) {
 
               return (
                 <PrismicNextLink
+                  key={item.label}
                   field={item.link}
                   className="inline-flex min-h-11 items-center"
                   onClick={() => setOpen(false)}
