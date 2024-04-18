@@ -57,21 +57,6 @@
             "allowTargetBlank": true,
             "multi": "paragraph,strong,em"
           }
-        },
-        "button_text": {
-          "type": "Text",
-          "config": {
-            "label": "Button Text",
-            "placeholder": ""
-          }
-        },
-        "button_link": {
-          "type": "Link",
-          "config": {
-            "label": "Button Link",
-            "placeholder": "",
-            "select": null
-          }
         }
       },
       "items": {}
